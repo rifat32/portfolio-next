@@ -5,13 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "lint": "next lint "
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
     "next": "11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^2.0.0-beta.5",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-typed": "^1.2.0",
+    "swiper": "^6.8.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
