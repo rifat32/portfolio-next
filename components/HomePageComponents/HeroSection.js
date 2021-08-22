@@ -17,7 +17,7 @@ const HeroSection = () => {
                 />
    </p>
   </div> */}
-  <Image src={heroImg} className="img-fluid" alt="profile-pic" quality={50} placeholder="blur"  layout="fill" />
+  <Image src={heroImg} className="img-fluid" alt="profile-pic" quality={50} placeholder="blur"  layout="fill" priority={true} />
   <div className="hero-container centered">
   <h1>RIFAT AL ASHWAD</h1>
     <p>I'm {" "}
