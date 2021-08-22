@@ -41,7 +41,7 @@ const SkillsSection = () => {
   <div className="container">
     <div className="section-title">
       <h2>Skills</h2>
-      <p>{"I have learnt from w3schools.com, udemy videos , youtube playlists and free code camp. I know 8 programming languages. These are jave, php, typescript, javascript, c, c++, python and sql. To see projects that I have created, scroll down to the portfolio section"}</p>
+      <p>{"I have learnt from w3schools.com, udemy videos , youtube playlists and free code camp. I know 8 programming languages. These are Java, Php, Typescript, Javascript, C, C++, Python and Sql. To see projects that I have created, scroll down to the portfolio section"}</p>
     </div>
     <div className="row skills-content">
       <div className="col-lg-6" data-aos="fade-up">

@@ -3,11 +3,12 @@ import Image from 'next/image'
 import mainPic from '../assets/img/profile-img.jpg'
 import Link from 'next/link'
 import {FaFacebookF,FaGithub} from "react-icons/fa"
+import {MdViewHeadline} from 'react-icons/md'
 import {BiHome,BiUser,BiBookContent,BiServer,BiEnvelope} from 'react-icons/bi';
 const Header = () => {
     return (
         <>
-         <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
+        <MdViewHeadline className="mobile-nav-toggle d-xl-none"></MdViewHeadline>
 <header id="header">
   <div className="d-flex flex-column">
     <div className="profile">

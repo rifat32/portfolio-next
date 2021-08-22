@@ -1,8 +1,6 @@
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/swiper.min.css";
+
 import Image from 'next/image'
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+
 
 
 
@@ -15,18 +13,15 @@ const DetailsSection = ({portfolio}) => {
    <div className="row gy-4">
      <div className="col-lg-8">
     
-         <Swiper navigation scrollbar={{ draggable: true }}
-      className="portfolio-details-slider">
-      {
-        portfolio.images.map((el,indx) => (
-          <SwiperSlide key={indx}>
-          <Image src={el} alt="profile-pic" quality={50} placeholder="blur"  layout="responsive" />
-          </SwiperSlide>
-        ))
-      }
-           
+         <div 
+      className="portfolio-details-img">
+     
          
-       </Swiper>
+          <Image src={portfolio.image} alt="profile-pic" quality={50} placeholder="blur"  layout="responsive" />
+         
+    
+         
+       </div>
      </div>
      <div className="col-lg-4">
        <div className="portfolio-info">
