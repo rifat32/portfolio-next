@@ -10,7 +10,7 @@ const PortfolioSection = () => {
         <section id="portfolio" className="portfolio section-bg">
   <div className="container">
     <div className="section-title">
-      <h2>Portfolio</h2>
+      <h2>Recent Web Projects</h2>
       <p>Not all of my projects are included here. You can visit to my github profile.</p>
     </div>
   

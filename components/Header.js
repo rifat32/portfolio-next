@@ -46,7 +46,7 @@ const Header = () => {
         {/* <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank" /> <span>Resume</span></a></li> */}
         <li>
         <Link href="/#portfolio">
-        <a  className="nav-link scrollto"><BiBookContent/> <span>Portfolio</span></a>
+        <a  className="nav-link scrollto"><BiBookContent/> <span>Projects</span></a>
         </Link>
         </li>
         <li>
