@@ -17,7 +17,7 @@ const DetailsSection = ({portfolio}) => {
       className="portfolio-details-img">
      
          
-          <Image src={portfolio.image} alt="profile-pic" quality={50} placeholder="blur"  layout="responsive" priority={true}  />
+          <Image src={portfolio.image} alt="profile-pic" quality={50} placeholder="blur"  layout="responsive" priority />
          
     
          
