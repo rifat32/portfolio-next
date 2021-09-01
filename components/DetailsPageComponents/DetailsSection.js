@@ -49,7 +49,7 @@ const DetailsSection = ({portfolio}) => {
           <div className="col-10 ">
             
             <div className="portfolio-description">
-              <h2>Details</h2>
+              <h2>Details </h2>
               <p>
               {portfolio.description}
               </p>
