@@ -4,7 +4,7 @@ import mainPic from '../assets/img/profile-img.jpg'
 import Link from 'next/link'
 import {FaFacebookF,FaGithub} from "react-icons/fa"
 import {MdViewHeadline} from 'react-icons/md'
-import {BiHome,BiUser,BiBookContent,BiServer,BiEnvelope} from 'react-icons/bi';
+import {BiHome,BiUser,BiBookContent,BiServer,BiEnvelope, BiFileBlank} from 'react-icons/bi';
 const Header = () => {
     return (
         <>
@@ -45,6 +45,9 @@ const Header = () => {
          </li>
         {/* <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank" /> <span>Resume</span></a></li> */}
         <li>
+        <Link href="/#resume">
+        <a  className="nav-link scrollto"><BiFileBlank/> <span>Resume</span></a>
+        </Link>
         <Link href="/#portfolio">
         <a  className="nav-link scrollto"><BiBookContent/> <span>Projects</span></a>
         </Link>

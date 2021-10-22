@@ -4,6 +4,7 @@ import HeroSection from "../components/HomePageComponents/HeroSection";
 import PortfolioSection from "../components/HomePageComponents/PortfolioSection";
 import ServicesSection from "../components/HomePageComponents/ServicesSection";
 import SkillsSection from "../components/HomePageComponents/SkillsSection";
+import ResumeSection from "../components/HomePageComponents/ResumeSection"
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 <main id="main">
   <AboutSection/>
   <SkillsSection/>
+  <ResumeSection/>
   <PortfolioSection/>
   {/* <ServicesSection/> */}
   <ContactSection/>

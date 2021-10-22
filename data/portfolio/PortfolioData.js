@@ -3,11 +3,44 @@ import portfolioImg from './portfolio.jpg'
 import elearning from "./elearning.jpg"
 import ecommerceLaravel from "./ecommerce-laravel.jpg"
 import taskManagement from "./task-management.jpg"
+import pos from "./pos.jpg"
+import dotzEcom from "./dotz-ecom.jpg"
+import tax from "./tax.jpg"
 
 
 const PortfolioSectionData = 
     [
     
+        {
+            slug:'dotz-pos',
+            image: pos,      
+            category:"Point of sale",
+            project_url:"http://dotzpos.com/pos/",
+            github_link:"",
+            github_frontend:"",
+            github_backend:"",
+            description:'This is a pos software that uses laravel. I worked on this software. I fixed many bugs on the site. Github code is not available for the company\'s business purpose '
+        },
+        {
+            slug:'dotz-ecommerce',
+            image: dotzEcom,      
+            category:"Ecommerce",
+            project_url:"http://dotzpos.com/build",
+            github_link:"",
+            github_frontend:"",
+            github_backend:"",
+            description:'This is an ecommerce website. It was created using laravel and laravel blade. I  made api for that side and now  it uses react js at the fron-end. I cant not give the github code because it is a paid website only for sell.'
+        },
+        {
+            slug:'tax',
+            image: tax,      
+            category:"Tax",
+            project_url:"https://euptax.com/",
+            github_link:"",
+            github_frontend:"",
+            github_backend:"",
+            description:'This software is for union parishat. It was an uncompleted project. I  completed this project. It uses laravel.'
+        },
         {
             slug:'elearning-laravel',
             image: elearning,      
